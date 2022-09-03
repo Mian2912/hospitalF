@@ -1,0 +1,61 @@
+.header{
+    width: 100%;
+    padding: 1rem;
+    background-position: center center;
+    background-color: $verde;
+    
+    .header_container{
+        width: 90%;
+        height: 11vh;
+        margin: auto;
+        
+        .home{
+            line-height: 11vh;
+            font-size: 5vh;
+            color: $blanco;
+            font-weight: bold;
+        }
+
+       .navbar{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            .navbar_nav{
+                width: 100%;
+
+                ul{
+                    display: flex;
+                    justify-content: end;
+                    li{
+                        list-style: none;
+                        margin-right: 2vh;
+                        padding: .5vh;
+                        a{
+                            color: $blanco;
+                            font-size: 3vh;
+                            padding: 3vh;
+                        }
+                    }
+                }
+            }
+        }
+
+        p{
+            height: 11vh;
+            width: 100%;
+            margin-top: 70vh;
+            font-size: 5vh;
+            padding: 1vh 1vh;
+            color: $blanco;
+        }
+
+    }
+
+}
+.inicio{
+    background-image: url(../img/hospital.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60rem;
+}
+

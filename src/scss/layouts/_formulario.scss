@@ -1,0 +1,71 @@
+.formulario{
+    width: 95%;
+    margin: 0 auto 2vh ;
+    color: $verde;
+    text-transform: capitalize;
+    height: auto;
+    
+    .content-input{
+        margin-bottom: 1rem;
+
+        label{
+            display: block;
+            font-size: 1.9rem;
+            color: $verde;
+        }
+    
+        input, select{
+            width: 100%;
+            padding: .8rem;
+            margin: 0vh auto;
+            color: $verde;
+            outline-style: none;
+            font-size: 1.8rem;
+            text-transform: capitalize;
+            height: 6vh;
+            border-radius: .3vh;
+            border-color: $verde;
+            &::placeholder{
+                color: $verde;
+                text-transform: capitalize;
+            }
+        }
+    
+        select{
+            appearance: none;
+            border: .1vh solid $verde;
+            background-color: $blanco;
+            border-radius: .3vh;
+        }
+        
+    }
+
+    .check{
+        
+        display: inline-block;
+    }
+
+    p{
+        font-size: 2rem;
+        display: inline-block; 
+        width: 30%;
+        display: inline;
+        margin-left: 2rem;
+    }
+}
+
+.min-w{
+    width: 50%;
+    margin: 2rem auto 3rem;
+}
+
+.md-w{
+
+    h1{
+        margin: 0 auto 3vh;
+        text-align: center;
+    }
+    height: 50vh;
+    margin: 14vh auto;
+    
+}

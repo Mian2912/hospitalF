@@ -1,0 +1,50 @@
+.user{
+    width: 100%;
+    height: 11vh;
+    color: $blanco;
+    line-height: 11vh;
+    text-align: end;
+    font-size: 5vh;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.main{
+    width: 100%;
+    display: grid;
+    height: auto;
+    grid-template-columns: 20% 80%;
+
+    .navbar{
+        width: 100%;
+        height: 120vh;
+        margin: 0;
+        background-color: $verde;
+        border-bottom: .2vh solid $blanco;
+        
+        ul{
+            width: 100%;
+            margin: 0;
+            height: auto;
+            padding: 0;
+            
+            li{
+                margin-left: 0;
+                list-style: none;
+                width: 100%;
+                padding: 2vh;
+                text-align: left;
+                border-top: .2vh solid $blanco;
+
+                a{
+                    color: $blanco;
+                    font-size: 3vh;
+                }
+            }
+
+            li:nth-child(6){
+                border-bottom: .2vh solid $blanco;
+            }
+        }
+    }
+}

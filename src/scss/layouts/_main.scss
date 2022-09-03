@@ -1,0 +1,31 @@
+.mainForm{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+
+    .background-image{
+        background-image: url(/build/img/hospital.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+    }
+
+    section{
+        width: 100%;
+        height: auto;
+        position: relative;
+        h1{
+            text-align: center;
+            color: $verde;
+            text-transform: capitalize;
+        }
+
+        .alert_float{
+            margin: -5vh 2.5vh;
+        }
+
+    }
+
+    
+}

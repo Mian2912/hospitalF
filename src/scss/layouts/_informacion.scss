@@ -1,0 +1,26 @@
+.noticias{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+
+    .noticia{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        border: .2vh solid $verde;
+
+        img{
+            height: 100%;
+            width: 100%;
+        }
+
+        p{
+            width: 100%;
+            height: 40vh;
+            text-align: justify;
+        }
+    }
+}

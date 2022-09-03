@@ -1,0 +1,38 @@
+table{
+    width: 95%;
+    height: auto;
+    margin: 5vh auto;
+    border: .2vh solid $verde;
+    border-collapse: collapse;
+
+
+    caption{
+        background-color: $verde;
+        text-align: left;
+        color: $blanco;
+        font-size: 4vh;
+        height: 8vh;
+    }
+
+    thead{
+        height: 5vh;
+        font-size: 3vh;
+        background-color: gray;
+        text-align: center;
+        color: $blanco;
+        font-weight: 400;
+    }
+
+    tbody{
+        text-align: center;
+        font-size: 2.8vh;
+        width: 100%;
+        text-transform: capitalize;
+        color: $verde;
+    }
+
+    tfoot{
+        height: 8vh;
+        background-color: $verde;
+    }
+}

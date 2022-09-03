@@ -1,0 +1,79 @@
+.form{
+    width: 95%;
+    height: auto;
+    margin: 5vh auto;
+    border: .2vh solid $verde;
+
+    .form_header{
+        background-color: $verde;
+        height: 8vh;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        h1{
+            margin: 0;
+            font-size: 4vh;
+            color: $blanco;
+        }
+
+        .actions{
+            display: flex;
+            justify-content: end;
+        }
+    }
+
+    .form_body{
+        height: 85vh;
+
+        .container_input{
+            margin: 4vh auto;
+            width: 95%;
+            height: 8vh;
+
+            label{
+                display: block;
+                font-size: 1.9rem;
+                color: $verde;
+            }
+        
+            input, select{
+                width: 100%;
+                padding: .8rem;
+                color: $verde;
+                outline-style: none;
+                font-size: 1.8rem;
+                text-transform: capitalize;
+                height: 6vh;
+                border-radius: .3vh;
+                border-color: $verde;
+                &::placeholder{
+                    color: $verde;
+                    text-transform: capitalize;
+                }
+            }
+        
+            select{
+                appearance: none;
+                border: .1vh solid $verde;
+                background-color: $blanco;
+                border-radius: .3vh;
+            }
+            
+        }
+       
+    }
+
+    .twoColums{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .form_footer{
+        height: 8vh;
+        background-color: $verde;
+        text-align: center;
+        font-size: 4vh;
+        color: $blanco;
+    }
+}
+

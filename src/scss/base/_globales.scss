@@ -1,0 +1,102 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 1.6rem;
+    line-height: 1.8;
+}
+
+a{text-decoration: none;}
+
+p{
+    margin: 0;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.container{
+    width: 90%;
+    margin: 2rem auto;
+
+    h3{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        font-weight: 400;
+        padding: 0;
+        margin: 1rem;
+        color: $verde;
+    }
+}
+
+.container_cite{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap: 0;
+}
+
+.alert{
+    width: 100%;
+    padding: 1rem;
+    color: $blanco;
+    text-transform: capitalize;
+    margin: .5rem 0;
+    text-align: center;
+    font-size: 2rem;
+    position: absolute;
+}
+
+.error{
+    background-color: red;
+}
+
+.success{
+    background-color: $verde;
+}
+
+.danger{
+    width: 100%;
+    margin: 1vh auto;
+    background-color: rgba($color: $rojo, $alpha: .8);
+    text-align: left;
+    border-radius: .3vh;
+    border-color: $rojo;
+}
+
+.info{
+    width: 95%;
+    margin: 1vh auto;
+    background-color: rgba($color: $azul, $alpha: .8);
+    text-align: left;
+    border-radius: .3vh;
+    border-color: $azul;
+}
+
+.alert-mn{
+    width: 50%;
+    margin: .5rem auto;
+}
+.alert-md{
+    width: 90%;
+    margin: .5rem auto;
+}
+
+.btn-tb{
+    width: 100%;
+    height: 5vh;
+    background-color: $verde;
+    margin: 2vh auto;
+    padding: 1vh 1vh;
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+}

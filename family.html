@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil | Central De citas</title>
+    <link rel="stylesheet" href="build/css/app.css">
+    <script src="https://kit.fontawesome.com/ea233f63c4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header_container">
+            <div class="navbar">
+                <a class="home">Central De Citas Medicas</a>
+                <div class="user"><em class="fa-solid fa-user"></em> Miguel Angel Herrera Vargas</div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="profile.html">Perfil</a></li>
+                    <li><a href="solicite.html">Solicitud Cita Medica</a></li>
+                    <li><a href="family.html">Solicitud Cita Familiar</a></li>
+                    <li><a href="list.html">Citas En Proceso</a></li>
+                    <li><a href="">Salir</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="information">
+
+            <form action="" class="form" method="post">
+                <div class="form_header">
+                    <h1>Solicitar Cita Medica Familiar</h1>
+                    <div class="actions">
+                        <button type="submit" class="btn btn-min update">Solicitar</button>
+                    </div>
+                </div>
+                <div class="form_body">
+                    <div class="container_input">
+                        <label for="name">Nombres</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+
+                    <div class="container_input">
+                        <label for="lastna">Apellidos</label>
+                        <input type="text" name="lastname" id="lastname">
+                    </div>
+
+                    <div class="container_input">
+                        <label for="typeDocument">Tipo De Documento</label>
+                        <input type="text" name="typeDocument" id="typeDocument">
+                    </div>
+
+                    <div class="container_input">
+                        <label for="document">Numero De Documento</label>
+                        <input type="text" name="document" id="document">
+                    </div>
+
+                    <div class="container_input">
+                        <label for="phone">Numero Telefonico</label>
+                        <input type="tel" name="phone" id="phone">
+                    </div>
+
+                    <div class="container_input">
+                        <label for="eps">Afiliacion Eps</label>
+                        <input type="text" name="eps" id="eps" value="{{user['eps']}}">
+                    </div>
+
+                    <div class="container_input">
+                        <label for="cite">Cita Medica</label>
+                        <select name="cite" id="cite">
+                            <option value="">Seleccione La Cita Medica...</option>
+                            <option value="">Medico General</option>
+                            <option value="">Odontologia</option>
+                            <option value="">Optometria</option>
+                        </select>
+                    </div>
+
+                </div>
+                <div class="form_footer">
+
+                </div>
+
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">Todos Los Derechos Reservados &copy;</div>
+    </footer>
+</body>
+</html>
